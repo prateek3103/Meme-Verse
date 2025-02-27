@@ -105,7 +105,7 @@ export default function Profile() {
       <div className="mt-10">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Your Uploaded Memes</h2>
         {uploadedMemes.length === 0 ? (
-          <p className="text-gray-600 dark:text-gray-400 text-center">You haven't uploaded any memes yet.</p>
+          <p className="text-gray-600 dark:text-gray-400 text-center">You have not uploaded any memes yet.</p>
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {uploadedMemes.map((meme, index) => (
